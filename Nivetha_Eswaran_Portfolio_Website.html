@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nivetha Eswaran — Software Engineer Portfolio</title>
+<style>
+:root{--bg:#f7f8fc;--card:#fff;--text:#111827;--muted:#667085;--line:#e7e9ef;--accent:#5b5bd6;--accent2:#ececff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;color:var(--text);background:var(--bg);line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{max-width:1080px;margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:10;background:rgba(247,248,252,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:64px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800}.links{display:flex;gap:22px;font-size:14px;color:var(--muted)}
+.hero{padding:92px 0 72px}.eyebrow{display:inline-block;padding:7px 12px;border-radius:999px;background:var(--accent2);color:var(--accent);font-size:13px;font-weight:700}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.02;letter-spacing:-3px;margin:18px 0}.hero p{max-width:720px;color:var(--muted);font-size:18px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:12px 18px;border-radius:12px;border:1px solid var(--line);background:#fff;font-weight:700}.btn.primary{background:var(--text);color:#fff;border-color:var(--text)}
+section{padding:70px 0}.section-title{font-size:30px;letter-spacing:-1px;margin:0 0 24px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 8px 30px rgba(17,24,39,.04)}.card h3{margin:0 0 8px;font-size:20px}.card p{margin:0;color:var(--muted)}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:17px}.tag{padding:5px 9px;border-radius:8px;background:#f1f2f6;color:#50576a;font-size:12px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:24px}.stat{font-size:30px;font-weight:800}.muted{color:var(--muted)}
+.timeline{border-left:2px solid var(--line);padding-left:22px}.item{position:relative;margin-bottom:28px}.item:before{content:"";position:absolute;left:-29px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--accent)}.item h3{margin:0}.item .meta{font-size:13px;color:var(--muted);margin-bottom:5px}
+footer{padding:45px 0;color:var(--muted);border-top:1px solid var(--line)}
+@media(max-width:720px){.links{display:none}.hero{padding-top:65px}.grid,.about{grid-template-columns:1fr}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><div class="brand">Nivetha Eswaran</div><div class="links"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="wrap hero">
+<span class="eyebrow">AI & Data Science • Software Engineering</span>
+<h1>Building practical software from ideas to working solutions.</h1>
+<p>I’m Nivetha, a B.Tech Artificial Intelligence and Data Science graduate who enjoys building web applications, APIs, ML workflows, authentication systems and computer-vision applications.</p>
+<div class="buttons">
+<a class="btn primary" href="#work">Explore my work ↓</a>
+<a class="btn" href="https://github.com/nivethaesn005" target="_blank">GitHub ↗</a>
+<a class="btn" href="https://www.linkedin.com/in/nivetha-eswaran-5829802a6" target="_blank">LinkedIn ↗</a>
+</div>
+</header>
+
+<main class="wrap">
+<section id="work"><h2 class="section-title">Selected work</h2><div class="grid">
+<article class="card"><h3>Student Performance Prediction System</h3><p>End-to-end ML pipeline for predicting student pass/fail outcomes from academic and behavioral features. Built preprocessing with Pandas/NumPy, trained Logistic Regression and Random Forest models, and exposed the trained model through a Flask REST API.</p><div class="tags"><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Flask</span><span class="tag">REST API</span></div></article>
+<article class="card"><h3>Authentication System</h3><p>Multi-method authentication system supporting credential-based login and Google OAuth through Firebase Authentication, with session management and protected routing.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Firebase</span><span class="tag">OAuth</span></div></article>
+<article class="card"><h3>Smart Hand Gesture Control</h3><p>Real-time touch-free desktop control using webcam hand tracking. Recognizes hand and finger gestures and maps them to actions including cursor movement, volume and window control.</p><div class="tags"><span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">MediaPipe</span><span class="tag">Computer Vision</span></div></article>
+<article class="card"><h3>Full Stack Internship Work</h3><p>Worked on responsive, cross-browser web interfaces and Firebase Authentication, gaining hands-on exposure to application architecture, secure login flows and real-time data flow.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Firebase</span></div></article>
+</div></section>
+
+<section id="experience"><h2 class="section-title">Experience & education</h2><div class="timeline">
+<div class="item"><h3>Full Stack Development Intern — Gateway Software Solutions</h3><div class="meta">Internship</div><p class="muted">Responsive web interfaces, cross-browser testing, Firebase Authentication and application flows.</p></div>
+<div class="item"><h3>Data Science Intern — Prodigy Infotech</h3><div class="meta">Internship</div><p class="muted">Data cleaning, EDA, visualization and predictive modelling with Python data-science libraries.</p></div>
+<div class="item"><h3>B.Tech — Artificial Intelligence and Data Science</h3><div class="meta">V.S.B College of Engineering Technical Campus, Coimbatore • 2022–2026 • CGPA 9.056</div><p class="muted">Consistently ranked among the top three students in every semester of college.</p></div>
+</div></section>
+
+<section id="skills"><h2 class="section-title">Technical toolkit</h2><div class="about">
+<div class="card"><div class="stat">Code</div><p>Java, Python, HTML, CSS, SQL</p><div class="tags"><span class="tag">Problem Solving</span><span class="tag">Backend Basics</span><span class="tag">Web Development</span></div></div>
+<div class="card"><div class="stat">Build</div><p>Flask, Firebase, Scikit-learn, OpenCV, MediaPipe, NumPy, Pandas, Matplotlib</p><div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Agile</span><span class="tag">Scrum</span></div></div>
+</div></section>
+
+<section><h2 class="section-title">Why I build</h2><div class="card"><p>I like working on problems where I can understand the requirement, break it into smaller pieces, build a working solution, test it, and improve it. I’m especially interested in environments where I can learn quickly, work across different parts of a product and gradually take ownership of features.</p></div></section>
+
+<section id="contact"><h2 class="section-title">Let’s connect</h2><div class="card"><p>Open to software engineering opportunities and early-stage product-building environments.</p><div class="buttons"><a class="btn primary" href="mailto:nivethaesn005@gmail.com">Email me</a><a class="btn" href="https://github.com/nivethaesn005" target="_blank">GitHub</a><a class="btn" href="https://www.linkedin.com/in/nivetha-eswaran-5829802a6" target="_blank">LinkedIn</a></div></div></section>
+</main>
+<footer><div class="wrap">© 2026 Nivetha Eswaran · Software Engineer Portfolio</div></footer>
+</body>
+</html>
